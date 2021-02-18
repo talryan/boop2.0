@@ -5,3 +5,40 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Doggo.create(
+    {image: "styles/benson.png"}
+)
+
+Doggo.create(
+    {image: "styles/bowtie-boi.png"}
+)
+
+Doggo.create(
+    {image: "styles/collar-boi.png"}
+)
+
+Doggo.create(
+    {image: "styles/corgi.png"}
+)
+
+Doggo.create(
+    {image: "styles/grey-boi.png"}
+)
+
+Doggo.create(
+    {image: "styles/light-boi.png"}
+)
+
+Doggo.create(
+    {image: "styles/pretty-gorl.png"}
+)
+
+Doggo.create(
+    {image: "styles/spike.png"}
+)
+
+
+
+Doggo.create(
+    {image: "styles/tan-boi.png"}
+)
