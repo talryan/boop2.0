@@ -1,0 +1,143 @@
+
+#leader-board  {
+    top: 25%;
+    width: 300px;
+    height: 700px; 
+    margin-left: 40px; 
+    text-align: center;
+    background-color: #fbbedf;
+    border: 1px solid black;
+    box-shadow: 10px 5px #fdcfdf;
+    /* display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch; */
+
+}
+#start-button {
+    font-family: "Roboto";
+}
+
+#leader-board h3 {
+    margin-top: 1px;
+    font-family:'Georgia';
+    color: white;
+    font-size: 30px;
+
+}
+
+/* #current-score {
+    top: 25%;
+    width: 300px;
+    height: 700px;
+    margin-right: 40px; 
+    text-align: center;
+    font-size: 30px;
+    background-color: #fbbedf;
+    border: 1px solid black;
+    box-shadow: 10px 5px #fdcfdf;
+   
+}
+
+#current-score h3 {
+    margin-top: 1px;
+    color:white;
+    font-family: "Georgia";
+
+} */
+
+#current-score p {
+    font-size: 60px;
+}
+
+body {
+    background-color: #e6a4b4;
+    cursor: initial;
+    background-image: url("background.png");
+}
+
+
+#app-container {
+    height:700px;
+    left: 25%;
+    top: 25%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/*game background*/
+#game-container {
+    border: 1px solid black;
+    background-color: #bce6eb;
+    width: 850px;
+    height: 700px;
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+            }
+
+
+#dirt-grid {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1em;
+}
+
+#1, #2, #3, #4, #5, #6, #7, #8, #9 {
+
+     /* Demo-Specific Styles */
+    line-height: 22px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-right: 5px;
+    position: relative;
+    
+    /* Flex Fallback */
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1 1 200px;
+} */
+
+#dirt-image{ 
+    padding-left: 25px;
+    width:100px;
+
+}
+
+img{
+width: 250px;
+}
+
+
+#doggo{
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+}
+
+/* #first-popup {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 150px;
+    visibility: visible;
+    background-color: #e6a4b4;
+    border: 1px solid black;
+    box-shadow: 10px 5px #fdcfdf;
+    color: white;
+    font-family: "Georgia"; */
